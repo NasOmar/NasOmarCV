@@ -1,0 +1,128 @@
+header{
+  
+}
+body{
+  
+  background-color: lavenderblush;
+  margin: 15%;
+}
+
+.contact-info {
+  text-align: center;
+}
+.name {
+  
+} 
+
+#center{
+ 
+  text-align: center;
+envelope-wrapper. i { 
+padding: 5px; 
+min-width: 10px; 
+}  
+h1 {
+  color: black;
+  font-size: 30px;
+  font: Times New Roman;
+}
+h3 {
+  font-size: 20px;
+  font: Times New Roman;
+}
+.skills/tools {
+  margin-left:10px;
+  padding:0;
+}
+.company/job-title {
+  font-size: 18px;
+  font: Times New Roman;
+}
+  .job-desc{
+    font-size: 16px;
+    font: Times New Roman;
+    
+  }
+{
+  hr 
+   style=
+      border:black;
+      height:3px;
+      
+}
+.date{
+  text-align: right;
+}
+.job-desc {
+  text-align: left;
+  padding:0;
+}
+}
+h4 {
+  
+  margin:0;
+  padding:0;
+}
+
+.pie-wrap {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 50%;
+  transform: rotate3d(0, 0, 1, 0.001deg); /* clear artifacts*/
+}
+.pie-wrap:before,
+.pie-wrap:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 150px;
+  height: 150px;
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: white;
+  transform: rotate3d(0, 0, 1, 0deg);
+  animation: 2s spin2 linear 4s forwards;
+  z-index: 2;
+}
+.pie-wrap:after {
+  content: " ";
+  background: black;
+  z-index: 1;
+  animation: 2s spin linear 2s forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+}
+@keyframes spin2 {
+  from {
+    background: black;
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  to {
+    background: black;
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+.myImg {
+  display: block;
+  position: relative;
+  z-index: 4;
+  border: 5px solid white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 5px 0 0 5px;
+ 
+}
+ <body>
+    <iframe src="Nasra_OmarCV.pdf"> 
+</body>
